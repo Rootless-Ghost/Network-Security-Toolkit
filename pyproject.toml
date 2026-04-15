@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "network-security-toolkit"
+version = "1.0.0"
+description = "A comprehensive network security toolkit with PathFinder (red team) and PathGuard (blue team) tools built on the NetworkMapper core library."
+authors = ["Rootless-Ghost <nebula_proxy@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [
+    { include = "network_mapper" },
+    { include = "pathfinder" },
+    { include = "pathguard" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-nmap = ">=0.7.1"
+networkx = ">=3.0"
+matplotlib = ">=3.7"
+pyvis = ">=0.3.2"
+scapy = ">=2.5.0"
+shodan = ">=1.28.0"
+requests = ">=2.28.0"
+colorama = ">=0.4.6"
+tabulate = ">=0.9.0"
+rich = ">=13.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = ">=7.0"
+
+[tool.poetry.scripts]
+network-mapper = "network_mapper.cli:main"
+pathfinder = "pathfinder.cli:main"
+pathguard = "pathguard.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
