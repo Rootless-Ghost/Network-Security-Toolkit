@@ -5,8 +5,8 @@
 > Unified red/blue team network security toolkit built on a shared core library. 
 > PathFinder maps attack paths. PathGuard hardens defenses. NetworkMapper powers both.
 
-⚠️ **AUTHORIZED SECURITY TESTING ONLY** ⚠️ — PathFinder is designed for use against 
-networks you own or have explicit permission to test. Unauthorized use is illegal.
+⚠️ **AUTHORIZED SECURITY TESTING ONLY** ⚠️ 
+PathFinder is designed for use against networks you own or have explicit permission to test. Unauthorized use is illegal.
 
 
 ## Overview
