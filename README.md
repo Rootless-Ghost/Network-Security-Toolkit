@@ -2,8 +2,14 @@
 
 # network-security-toolkit
 
-> Unified red/blue team network security toolkit built on a shared core library. 
-> PathFinder maps attack paths. PathGuard hardens defenses. NetworkMapper powers both.
+### Unified Red/Blue Team Network Security Toolkit
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![Poetry](https://img.shields.io/badge/Poetry-Package_Manager-60A5FA?style=flat-square&logo=poetry&logoColor=white)](https://python-poetry.org)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.0.0-9D1AF7?style=flat-square)]()
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK_Mapped-red?style=flat-square)](https://attack.mitre.org)
+[![Authorized Use Only](https://img.shields.io/badge/Use-Authorized_Testing_Only-red?style=flat-square)]()
 
 ⚠️ **AUTHORIZED SECURITY TESTING ONLY** ⚠️ 
 
